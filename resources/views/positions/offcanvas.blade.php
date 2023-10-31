@@ -8,18 +8,18 @@
       <div class="offcanvas-body mx-3">
         <div class="mb-4 row ">
           <span>Nama Position</span>
-          <input class="form-control" type="text" name="nama_position" placeholder="Insert Nama position" aria-label="default input example" id="nama_position">
+          <input class="form-control" type="text" name="nama_position" placeholder="Insert Nama Position" aria-label="default input example" id="nama_position">
         </div>
         <div class="mb-4 row ">
           <span>Kode Position</span>
-          <input class="form-control" type="text" name="kode_position"  placeholder="Insert kode positione" aria-label="default input example" id="kode_position">
+          <input class="form-control" type="text" name="kode_position"  placeholder="Insert Kode Position" aria-label="default input example" id="kode_position">
         </div>
         <div class="mb-4 row ">
-          <span>deskripsi position</span>
-          <input class="form-control" type="text" name="deskripsi_position"  placeholder="Insert deskripsi positione" aria-label="default input example" id="deskripsi_position">
+          <span>Deskripsi Position</span>
+          <input class="form-control" type="text" name="deskripsi_position"  placeholder="Insert Deskripsi Position" aria-label="default input example" id="deskripsi_position">
         </div>
         <div class="mb-4 row ">
-          <span class="mb-3">position Status</span>
+          <span class="mb-3">Position Status</span>
           <div class="d-flex justify-content-between">
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="isaktif_position" id="isaktif_position" value="1">
