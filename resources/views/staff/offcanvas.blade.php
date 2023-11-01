@@ -1,14 +1,14 @@
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExampleAdd" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Add staff</h5>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Add Staff</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
     {{-- <form action="{{ route('admin.store') }}" method="POST"> --}}
     {{-- @csrf --}}
       <div class="offcanvas-body mx-3">
         <div class="mb-4 row ">
-          <span>Nama staff</span>
-          <input class="form-control" type="text" name="nama_staff" placeholder="Insert Nama staff" aria-label="default input example" id="nama_staff">
+          <span>Nama Staff</span>
+          <input class="form-control" type="text" name="nama_staff" placeholder="Insert Nama Staff" aria-label="default input example" id="nama_staff">
         </div>
         <div class="mb-4 row ">
           <span>Username</span>
@@ -16,11 +16,11 @@
         </div>
         <div class="mb-4 row ">
           <span>No.Hp</span>
-          <input class="form-control" type="text" name="nomor_staff"  placeholder="Insert nomor" aria-label="default input example" id="nomor_staff">
+          <input class="form-control" type="text" name="nomor_staff"  placeholder="Insert Nomor" aria-label="default input example" id="nomor_staff">
         </div>
         <div class="mb-4 row  ">
           <span class="text-align-start">Audit / Unit</span>      
-          <select id="id_staff_auditee" class="form-select" placeholder="Insert kode kegiatane" aria-label="Default select example">
+          <select id="id_staff_auditee" class="form-select" placeholder="Insert Kode Kegiatan" aria-label="Default select example">
             {{-- id di select --}}
           {{-- <option>Insert Auditee / Unit</option> --}}
           <option value="" disabled selected>Insert Audite / Unit</option>
@@ -32,7 +32,7 @@
         </div>
         <div class="mb-4 row  ">
           <span class="text-align-start">Position</span>      
-          <select id="id_staff_position" class="form-select" placeholder="Insert kode kegiatane" aria-label="Default select example">
+          <select id="id_staff_position" class="form-select" placeholder="Insert Kode Kegiatan" aria-label="Default select example">
             {{-- id di select --}}
           {{-- <option>Insert Auditee / Unit</option> --}}
           <option value="" disabled selected>Insert Position</option>
