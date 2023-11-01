@@ -13,7 +13,7 @@
         </div>
         <div class="mb-4 row ">
           <span>kode Auditee</span>
-          <input class="form-control" type="text" name="kode_auditee"  placeholder="Insert kode Auditeee" aria-label="default input example" id="kode_auditee">
+          <input class="form-control" type="text" name="kode_auditee"  placeholder="Insert Kode Auditeee" aria-label="default input example" id="kode_auditee">
         </div>
         <div class="mb-4 row ">
           <span class="mb-3">Auditee Status</span>
