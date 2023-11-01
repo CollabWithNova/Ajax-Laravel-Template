@@ -7,7 +7,7 @@
     {{-- @csrf --}}
       <div class="offcanvas-body mx-3">
         <div class="mb-4 row ">
-          <span>Nama staff</span>
+          <span>Nama Staff</span>
           <input class="form-control" type="text" name="nama_staff" placeholder="Insert Nama staff" aria-label="default input example" id="nama_staff">
         </div>
         <div class="mb-4 row ">
@@ -16,11 +16,11 @@
         </div>
         <div class="mb-4 row ">
           <span>No.Hp</span>
-          <input class="form-control" type="text" name="nomor_staff"  placeholder="Insert nomor" aria-label="default input example" id="nomor_staff">
+          <input class="form-control" type="text" name="nomor_staff"  placeholder="Insert Nomor" aria-label="default input example" id="nomor_staff">
         </div>
         <div class="mb-4 row  ">
           <span class="text-align-start">Audit / Unit</span>      
-          <select id="id_staff_auditee" class="form-select" placeholder="Insert kode kegiatane" aria-label="Default select example">
+          <select id="id_staff_auditee" class="form-select" placeholder="Insert Kode Kegiatan" aria-label="Default select example">
             {{-- id di select --}}
           {{-- <option>Insert Auditee / Unit</option> --}}
           <option value="" disabled selected>Insert Audite / Unit</option>
@@ -32,7 +32,7 @@
         </div>
         <div class="mb-4 row  ">
           <span class="text-align-start">Position</span>      
-          <select id="id_staff_position" class="form-select" placeholder="Insert kode kegiatane" aria-label="Default select example">
+          <select id="id_staff_position" class="form-select" placeholder="Insert Kode Kegiatane" aria-label="Default select example">
             {{-- id di select --}}
           {{-- <option>Insert Auditee / Unit</option> --}}
           <option value="" disabled selected>Insert Position</option>
